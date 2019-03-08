@@ -1,0 +1,140 @@
+body {
+    background-color: #ffc502;
+	background-position: 0px 400px;
+	background-size: 100%;
+}
+
+.container {
+    background-color:#feda3b;
+    border-color:#004d80;
+    border-width:3px;
+    border-style:inset;
+	width: 80%;
+	position: absolute;
+	top: 500px;
+	left: 10%;
+	padding-bottom: 90px;
+}
+
+.jumbotron {
+    background: url(../images/Header.jpg) center center no-repeat;
+    margin-top: -130px;
+    padding-top:550px;
+}
+
+.individual-gifs {
+	float: left;
+	margin: 10px;
+}
+.introduction { 
+    display: block;
+    background: #0353b2;
+    
+    z-index:3;
+    margin: 10px;
+    padding:10px;
+	color: white;
+    font-family: 'Work Sans', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+	position: absolute;
+    top: 465px;
+}
+
+.input-label {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #004d80;
+    font-family: 'Roboto', sans-serif;
+}
+
+.newGirl-buttons {
+	background-color:#004d80;
+	border-radius: 5px;
+	border: none;
+	padding: 10px 15px 10px 15px;
+	margin: 5px;
+	color: white;
+}
+
+.newGirl-btn:hover {
+	background: #adadeb;
+}
+
+.rating-text {
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+}
+
+.newGirl{
+	position: relative;
+	left: 0%;
+}
+
+#newGirl-buttons {
+    padding-top:40px;
+	width: 100%;
+    font-family: 'Assistant',sans-serif;
+	font-weight: 400;
+    font-size: 17px;
+    font-weight:200px;
+	letter-spacing: 6px;
+}
+
+#add-character {
+	background-color:#0353b2;
+	border: none;
+	color: white;
+	margin-top: 14px;
+	padding: 10px;
+	font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 1.5px;
+}
+
+#add-characters:hover {
+	background: #375D75;
+}
+
+.rating {
+    font-family: 'Vollkorn', serif;
+	font-weight: 700;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+/* JUMBOTRON ELEMENTS */
+
+#title {
+    color:white;
+    text-align: center;
+    position: relative;
+    letter-spacing: 10px;
+    top: 220px;
+    font-family: 'Vollkorn', serif;
+}
+
+#title-button {
+	text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+    letter-spacing: 1.5px;
+    top: 370px;
+    position: absolute;
+    z-index: 3;
+	left: 44.5%;
+	background-color:#004d80;
+	border: none;
+}
+
+#title-button:hover {
+	background: #375D75;
+}
